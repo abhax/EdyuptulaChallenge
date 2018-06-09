@@ -1,0 +1,10 @@
+Here is the list of commands I followed to enable the make.
+
+1) First download Torvalds linux distribution and then make the new repository.
+2) copy config from current distribution and "make menuconfig". select CONFIG_LOCALVERSION_AUTO=y 
+3) sudo make clean 
+4) sudo make -j2 
+5) make modules
+6) make modules_install
+7) make install
+8) make sure you run them all in sudo mode so you have permissions
